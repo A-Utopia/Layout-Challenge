@@ -11,7 +11,6 @@ void main() {
 
 class CorrectLayout extends StatelessWidget {
   const CorrectLayout({super.key});
-
   @override
   Widget build(BuildContext context) {
 
