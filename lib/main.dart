@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: CorrectLayout(),
+    home: BadLayout(),
   ));
 }
 
-class CorrectLayout extends StatelessWidget {
-  const CorrectLayout({super.key});
+class BadLayout extends StatelessWidget {
+  const BadLayout({super.key});
   @override
   Widget build(BuildContext context) {
 
