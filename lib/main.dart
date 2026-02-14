@@ -159,9 +159,12 @@ class BadLayout extends StatelessWidget {
 }
 
 
+
+
+
   Widget _buildMissionCard(String title, String description, int progress, double screenWidth) {
     return Container(
-      width: screenWidth * 0.9,
+      width: screenWidth *1.5,
       padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
         color: Color(0xFFFAF0E6),
