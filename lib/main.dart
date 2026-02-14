@@ -162,7 +162,15 @@ class BadLayout extends StatelessWidget {
 
 
 
-  Widget _buildMissionCard(String title, String description, int progress, double screenWidth) {
+class _buildMissionCard extends StatelessWidget {
+  const _buildMissionCard(this.title, this.description, this.progress, this.screenWidth);
+  final String title;
+  final String description;
+  final int progress;
+  final double screenWidth;
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       width: screenWidth *1.5,
       padding: const EdgeInsets.all(8),
@@ -223,3 +231,4 @@ class BadLayout extends StatelessWidget {
       ),
     );
   }
+}
